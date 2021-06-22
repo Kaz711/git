@@ -1,0 +1,113 @@
+/*
+
+*/
+
+
+/*---------------------------------------
+    General               
+-----------------------------------------*/
+#contents {
+  padding-top:8rem;
+  padding-bottom:12rem;
+}
+
+#contents h3 {
+    padding-bottom: 12px;
+}
+
+#overview .btn,
+#contents .btn {
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    padding: 14px 42px;
+    margin-top: 0px;
+    margin-right: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#overview .btn-danger,
+#contents .btn-danger {
+    background: #f2545f;
+    border-color: transparent;
+}
+
+#overview .btn,
+#contents .btn {
+  border-radius: 100px;
+}
+
+#overview .btn-danger:hover,
+#contents .btn-danger:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+#overview .btn-danger:hover,
+#contents .btn-danger:hover {
+  background: #222;
+}
+
+#overview .btn-default:hover,
+#contents .btn-default:hover {
+    background: #ffffff;
+    color: #333333;
+    border-color: transparent;
+}
+
+
+/*---------------------------------------
+    mv section              
+-----------------------------------------*/
+#mv {
+    background: url('../images/img_hp_mv.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+     display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+     -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+    height: 60vh;
+    text-align: center;
+}
+
+#mv h3 {
+  letter-spacing: 2px;
+}
+
+
+/*---------------------------------------
+    background          
+-----------------------------------------*/
+.salon {
+  background-color: #f9f9f9;
+}
+
+/*---------------------------------------
+    padding,margin   
+-----------------------------------------*/
+.photo,
+.alert,
+.list-group {
+  padding-top: 2rem;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.plan,
+.panel {
+  margin-left: 15px;
+  margin-right: 15px;
+}

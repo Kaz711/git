@@ -45,7 +45,7 @@ h5 {
 }
 
 p {
-    color: #707070;
+    color: #333333;
     font-size: 14px;
     line-height: 24px;
 }
@@ -92,6 +92,8 @@ footer {
     padding-bottom: 12px;
 }
 
+#register .btn,
+#venue .btn,
 #intro .btn,
 #contact .btn {
     background: transparent;
@@ -108,26 +110,32 @@ footer {
     transition: all 0.4s ease-in-out;
 }
 
+#register .btn-danger,
+#venue .btn-danger,
 #intro .btn-danger,
 #contact .btn-danger {
     background: #f2545f;
     border-color: transparent;
 }
 
+#venue .btn,
 #contact .btn {
   border-radius: 100px;
 }
 
+#register .btn-danger:hover,
 #intro .btn-danger:hover {
   background: transparent;
   border-color: #ffffff;
   color: #ffffff;
 }
 
+#venue .btn-danger:hover,
 #contact .btn-danger:hover {
   background: #222;
 }
 
+#register .btn-default:hover,
 #intro .btn-default:hover {
     background: #ffffff;
     color: #333333;
@@ -262,7 +270,7 @@ footer {
     Intro section              
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/futakotamagawa_mv.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -326,6 +334,11 @@ footer {
     background: #f9f9f9;
 }
 
+#speakers h2 {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
 #speakers h3 {
     font-size: 18px;
     margin-bottom: 0px;
@@ -360,6 +373,11 @@ footer {
 /*---------------------------------------
    Program section              
 -----------------------------------------*/
+#program h2 {
+    font-size: 30px;
+    padding-top: 15px;
+}
+
 #program h4 {
     color: #808080;
     font-size: 12px;
@@ -420,7 +438,7 @@ footer {
     Regsiter section              
 -----------------------------------------*/
 #register {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/top_bg1.jpg') 50% 0 repeat-y fixed;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -462,8 +480,7 @@ footer {
 -----------------------------------------*/
 #faq {
   background: #f9f9f9;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 12rem;
 }
 
 #faq .panel-group {
@@ -526,11 +543,11 @@ footer {
    Venue section              
 -----------------------------------------*/
 #venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/top_bg2.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 
 #venue p {
@@ -547,13 +564,16 @@ footer {
   margin-top: 18px;
 }
 
-
+#sponsors h2 {
+    font-size: 30px;
+    padding-top: 15px;
+}
 
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/top_bg3.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
 }
